@@ -33,3 +33,5 @@ D:\Projects\CitiesApi\CitiesApi\obj\Debug\net8.0\refint\CitiesApi.dll
 D:\Projects\CitiesApi\CitiesApi\obj\Debug\net8.0\CitiesApi.pdb
 D:\Projects\CitiesApi\CitiesApi\obj\Debug\net8.0\CitiesApi.genruntimeconfig.cache
 D:\Projects\CitiesApi\CitiesApi\obj\Debug\net8.0\ref\CitiesApi.dll
+D:\Projects\CitiesApi\CitiesApi\obj\Debug\net8.0\CitiesApi.sourcelink.json
+D:\Projects\CitiesApi\CitiesApi\bin\Debug\net8.0\getting-acquainted-with-aspnet-core-slides.pdf

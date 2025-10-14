@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\Projects\\CitiesApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|d:\\projects\\citiesapi\\citiesapi\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|solutionrelative:citiesapi\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|d:\\projects\\citiesapi\\citiesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|solutionrelative:citiesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|d:\\projects\\citiesapi\\citiesapi\\controllers\\pointsofinterestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|solutionrelative:citiesapi\\controllers\\pointsofinterestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|d:\\projects\\citiesapi\\citiesapi\\citiesdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|solutionrelative:citiesapi\\citiesdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|d:\\projects\\citiesapi\\citiesapi\\models\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|solutionrelative:citiesapi\\models\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|d:\\projects\\citiesapi\\citiesapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|solutionrelative:citiesapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|d:\\projects\\citiesapi\\citiesapi\\models\\pointsofinterestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4509B05-85E9-4557-A49D-AF65E98C3795}|CitiesApi\\CitiesApi.csproj|solutionrelative:citiesapi\\models\\pointsofinterestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "D:\\Projects\\CitiesApi\\CitiesApi\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "CitiesApi\\Controllers\\FileController.cs",
+              "ToolTip": "D:\\Projects\\CitiesApi\\CitiesApi\\Controllers\\FileController.cs",
+              "RelativeToolTip": "CitiesApi\\Controllers\\FileController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBgAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:18:55.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PointsOfInterestController.cs",
+              "DocumentMoniker": "D:\\Projects\\CitiesApi\\CitiesApi\\Controllers\\PointsOfInterestController.cs",
+              "RelativeDocumentMoniker": "CitiesApi\\Controllers\\PointsOfInterestController.cs",
+              "ToolTip": "D:\\Projects\\CitiesApi\\CitiesApi\\Controllers\\PointsOfInterestController.cs",
+              "RelativeToolTip": "CitiesApi\\Controllers\\PointsOfInterestController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwBcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T09:45:01.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PointsOfInterestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\CitiesApi\\CitiesApi\\Models\\PointsOfInterestDto.cs",
+              "RelativeDocumentMoniker": "CitiesApi\\Models\\PointsOfInterestDto.cs",
+              "ToolTip": "D:\\Projects\\CitiesApi\\CitiesApi\\Models\\PointsOfInterestDto.cs",
+              "RelativeToolTip": "CitiesApi\\Models\\PointsOfInterestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T09:37:12.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitiesDataStore.cs",
+              "DocumentMoniker": "D:\\Projects\\CitiesApi\\CitiesApi\\CitiesDataStore.cs",
+              "RelativeDocumentMoniker": "CitiesApi\\CitiesDataStore.cs",
+              "ToolTip": "D:\\Projects\\CitiesApi\\CitiesApi\\CitiesDataStore.cs",
+              "RelativeToolTip": "CitiesApi\\CitiesDataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T06:24:50.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityDto.cs",
+              "DocumentMoniker": "D:\\Projects\\CitiesApi\\CitiesApi\\Models\\CityDto.cs",
+              "RelativeDocumentMoniker": "CitiesApi\\Models\\CityDto.cs",
+              "ToolTip": "D:\\Projects\\CitiesApi\\CitiesApi\\Models\\CityDto.cs",
+              "RelativeToolTip": "CitiesApi\\Models\\CityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T06:23:28.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CitiesController.cs",
               "DocumentMoniker": "D:\\Projects\\CitiesApi\\CitiesApi\\Controllers\\CitiesController.cs",
               "RelativeDocumentMoniker": "CitiesApi\\Controllers\\CitiesController.cs",
               "ToolTip": "D:\\Projects\\CitiesApi\\CitiesApi\\Controllers\\CitiesController.cs",
               "RelativeToolTip": "CitiesApi\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T05:17:48.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\CitiesApi\\CitiesApi\\Program.cs",
               "RelativeDocumentMoniker": "CitiesApi\\Program.cs",
               "ToolTip": "D:\\Projects\\CitiesApi\\CitiesApi\\Program.cs",
               "RelativeToolTip": "CitiesApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T05:16:00.415Z",
               "EditorCaption": ""
