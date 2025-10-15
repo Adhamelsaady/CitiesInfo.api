@@ -19,5 +19,6 @@ namespace CitiesApi.Controllers
             var CityToReturn = CitiesDataStore.Current.Cities.Find(c => c.Id == id);
             return CityToReturn == null ? NotFound() : Ok(CityToReturn);
         }
+
     }
 }

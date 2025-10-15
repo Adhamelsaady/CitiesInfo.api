@@ -2,23 +2,9 @@ using Microsoft.AspNetCore.StaticFiles;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers(options => options.ReturnHttpNotAcceptable = true).AddXmlDataContractSerializerFormatters();
-
-
-
-builder.Services.AddProblemDetails
-(
-    options =>
-    {
-        options.CustomizeProblemDetails = ctx =>
-        {
-            ctx.ProblemDetails.Extensions.Add("Additionl Info", "Additional Info example");
-            ctx.ProblemDetails.Extensions.Add("Server", Environment.MachineName);
-        };
-    }
-);
+builder.Services.AddControllers(options => options.ReturnHttpNotAcceptable = true)
+.AddNewtonsoftJson()
+.AddXmlDataContractSerializerFormatters();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

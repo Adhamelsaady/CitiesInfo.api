@@ -35,3 +35,7 @@ D:\Projects\CitiesApi\CitiesApi\obj\Debug\net8.0\CitiesApi.genruntimeconfig.cach
 D:\Projects\CitiesApi\CitiesApi\obj\Debug\net8.0\ref\CitiesApi.dll
 D:\Projects\CitiesApi\CitiesApi\obj\Debug\net8.0\CitiesApi.sourcelink.json
 D:\Projects\CitiesApi\CitiesApi\bin\Debug\net8.0\getting-acquainted-with-aspnet-core-slides.pdf
+D:\Projects\CitiesApi\CitiesApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Projects\CitiesApi\CitiesApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Projects\CitiesApi\CitiesApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Projects\CitiesApi\CitiesApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
