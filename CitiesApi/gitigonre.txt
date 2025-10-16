@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+*.config.user
+
+# NuGet packages
+packages/
+*.nupkg
+
+# ASP.NET specific
+appsettings.Development.json
+
+# Other common ignores
+*.dbmdl
+*.jfm
