@@ -5,7 +5,7 @@ namespace CitiesApi
     public class CitiesDataStore
     {
         public List <CityDto> Cities { get; set; }
-        public CitiesDataStore()
+    /*    public CitiesDataStore()
         {
             Cities = new List<CityDto>()
             {
@@ -18,13 +18,13 @@ namespace CitiesApi
                     {
                         new PointsOfInterestDto()
                         {
-                            Id = 1,
+                            PointOfInterestId = 1,
                             Name = "Giza Pyramids",
                             Description = "The iconic ancient pyramids and the Sphinx."
                         },
                         new PointsOfInterestDto()
                         {
-                            Id = 2,
+                            PointOfInterestId = 2,
                             Name = "Egyptian Museum",
                             Description = "Famous for its collection of ancient Egyptian artifacts."
                         }
@@ -39,13 +39,13 @@ namespace CitiesApi
                     {
                         new PointsOfInterestDto()
                         {
-                            Id = 3,
+                            PointOfInterestId = 3,
                             Name = "Bibliotheca Alexandrina",
                             Description = "A modern library built to honor the ancient one."
                         },
                         new PointsOfInterestDto()
                         {
-                            Id = 4,
+                            PointOfInterestId = 4,
                             Name = "Qaitbay Citadel",
                             Description = "A historic fortress on the Mediterranean coast."
                         }
@@ -94,6 +94,6 @@ namespace CitiesApi
                     }
                 }
             };
-        }
+        } */
     }
 }

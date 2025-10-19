@@ -1,6 +1,8 @@
 using CitiesApi;
+using CitiesApi.Data;
 using CitiesApi.Services;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 
@@ -33,7 +35,16 @@ builder.Services.AddTransient<IMailService , LocalMailService>();
 builder.Services.AddTransient<IMailService , CloudMailService>();
 #endif
 
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("AppDbConnectionString")
+    )
+);
+
 builder.Services.AddSingleton<CitiesDataStore>();
+builder.Services.AddScoped<IcityInfoRepository, CityInfoRepository>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 
 var app = builder.Build();
 
