@@ -1,4 +1,5 @@
 ﻿using CitiesApi.Entities;
+using CityInfo.API.Services;
 
 namespace CitiesApi.Services
 {
@@ -7,7 +8,7 @@ namespace CitiesApi.Services
         Task<IEnumerable<City>> GetCitiesAsync();
 
         Task<City?> GetCityAsync(int cityId , bool includePointsOfInterest);
-
+        Task<(IEnumerable<City>, PaginationMetadata)> GetCitiesAsync(string? Name , string ? searchQuery , int pageNumber , int pageSize );
         Task<IEnumerable<PointOfInterest>> GetPointsOfInterestAsync(int cityId);
         Task<PointOfInterest?> GetPointOfInterestForCityAsync(int cityId, int pointOfInterestId);
         Task<bool> CityExsitAsync(int cityId);
