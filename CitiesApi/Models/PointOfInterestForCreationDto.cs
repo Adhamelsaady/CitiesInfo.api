@@ -2,9 +2,9 @@
 
 namespace CitiesApi.Models
 {
-    public class PointsOfInterestForUpdateDto
+    public class PointOfInterestForCreationDto
     {
-        [Required(ErrorMessage = "The name is required")]
+        [Required (ErrorMessage ="The name is required")]
 
         public string Name { get; set; } = string.Empty;
 

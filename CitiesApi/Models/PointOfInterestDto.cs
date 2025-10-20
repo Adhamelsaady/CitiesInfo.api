@@ -1,6 +1,6 @@
 ﻿namespace CitiesApi.Models
 {
-    public class PointsOfInterestDto
+    public class PointOfInterestDto
     {
         public int PointOfInterestId { get; set; } 
         public string Name { get; set; } = string.Empty;
