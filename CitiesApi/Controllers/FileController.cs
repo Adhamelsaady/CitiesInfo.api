@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;
 using System.Threading.Tasks;
 
 namespace CitiesApi.Controllers
 {
     [Route("api/files")]
+    [Authorize]
     [ApiController]
     public class FileController : ControllerBase
     {

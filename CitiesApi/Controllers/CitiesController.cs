@@ -8,9 +8,11 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 namespace CitiesApi.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/cities")]
     public class CitiesController : ControllerBase
     {

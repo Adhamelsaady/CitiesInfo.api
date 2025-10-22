@@ -66,6 +66,11 @@ namespace CitiesApi.Services
             return await _context.Cities.AnyAsync(c => c.CityId == cityId);
         }
 
+        public async Task<bool> CityNameMatchesId(string cityName, int cityId)
+        {
+            return await _context.Cities.AnyAsync(c => c.Name == cityName && c.CityId == cityId);
+        }
+
         public async Task<bool> PointOfInterestExsitAsync(int cityId, int pointOfInterestId)
         {
             return await _context.PointOfInterests

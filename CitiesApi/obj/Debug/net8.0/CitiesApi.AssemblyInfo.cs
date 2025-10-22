@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("6ec274e4-1d1a-4ad3-834c-33f54e47c0b8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CitiesApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32d4c1b88d57fcb55ccb63bbc3deef4492ff6096")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f488d57659e3fea77a4a982bf71faef23942c0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CitiesApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CitiesApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
