@@ -9,11 +9,14 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
+using Asp.Versioning;
 namespace CitiesApi.Controllers
 {
     [ApiController]
     [Authorize]
-    [Route("api/cities")]
+    [Route("api/v{apiVersion}/cities")]
+    [ApiVersion(1)]
+    [ApiVersion(2)]
     public class CitiesController : ControllerBase
     {
         private readonly IcityInfoRepository _cityInfoRepository;    
@@ -38,10 +41,22 @@ namespace CitiesApi.Controllers
             return Ok(_mapper.Map<IEnumerable<CityDtoWithoutPointsOfInterest>>(CityEntites));
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetCity(int id , bool includePointsOfInterest)
+        /// <summary>
+        /// Get a city by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="includePointsOfInterest"></param>
+        /// <returns>A city with or without its points of interest</returns>
+        /// <response code = "200">The intended city returned succefully</response>>
+        /// <response code = "400">Bad Request </response>
+        /// <response code = "404">City not found </response>
+        [HttpGet("{cityId}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetCity(int cityId , bool includePointsOfInterest)
         {
-            var CityToReturn = await _cityInfoRepository.GetCityAsync(id , includePointsOfInterest);
+            var CityToReturn = await _cityInfoRepository.GetCityAsync(cityId, includePointsOfInterest);
             if(CityToReturn == null) 
                 return NotFound();
 

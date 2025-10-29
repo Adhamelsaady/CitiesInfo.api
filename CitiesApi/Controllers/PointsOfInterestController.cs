@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using CitiesApi.Data;
 using CitiesApi.Entities;
 using CitiesApi.Models;
@@ -9,10 +10,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CitiesApi.Controllers
 {
-    [Route("api/cities/{cityid}/pointsofinterest")]
+    [Route("api/v{version:apiVersion}/cities/{cityid}/pointsofinterest")]
     [Authorize(Policy = "MustBeFromAntwerp")]
     [ApiController]
-
+    [ApiVersion(2)]
     public class PointsOfInterestController : ControllerBase
     {
 

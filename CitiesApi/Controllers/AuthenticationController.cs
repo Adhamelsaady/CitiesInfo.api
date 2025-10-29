@@ -71,7 +71,7 @@ namespace CitiesApi.Controllers
             return Ok(tokenToReturn);
         }
 
-        public CityInfoUser ValidateUserCardenatials(string? userName, string? password)
+        private CityInfoUser ValidateUserCardenatials(string? userName, string? password)
         {
             return new CityInfoUser(1 , userName ?? "" , "Adham" , "Elsaady" , "Antwerp");
         }

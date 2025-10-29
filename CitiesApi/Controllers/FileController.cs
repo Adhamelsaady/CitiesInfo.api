@@ -1,13 +1,15 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Asp.Versioning;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;
 using System.Threading.Tasks;
 
 namespace CitiesApi.Controllers
 {
-    [Route("api/files")]
+    [Route("api/v{version:ApiVersion}/files")]
     [Authorize]
     [ApiController]
+    [ApiVersion(0.1 , Deprecated = true)]
     public class FileController : ControllerBase
     {
         private readonly FileExtensionContentTypeProvider _fileExtensionContentTypeProvider;
